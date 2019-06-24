@@ -4,13 +4,13 @@ import PostItem from '../PostItem.View';
 import { Div } from './style.js'
 
 const PostList = ({posts}) => {
-    { return posts.map(post => {
+    return posts.map(post => {
         return (
-            <Div>
+            <Div key={post.id}>
                 <PostItem post={post} />
             </Div>
         )
-    })}
+    })
 }
 
 export default PostList;

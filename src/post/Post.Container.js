@@ -1,4 +1,4 @@
-import React, { useState, useEffect }  from 'react'
+import React, { useEffect }  from 'react'
 import { useSelector, connect } from 'react-redux'
 
 import PostList from './PostList.View';
@@ -15,7 +15,7 @@ const PostListContainer = ({fetchData}) => {
 
     useEffect(() => {
         fetchData();
-    }, [])
+    }, [fetchData])
 
     return (
         <div>
