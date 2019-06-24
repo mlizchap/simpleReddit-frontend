@@ -1,0 +1,3 @@
+export const Actions = {
+    FETCH_ALL_POSTS_SUCCESS: 'FETCH_ALL_POSTS_SUCCESS'
+}
