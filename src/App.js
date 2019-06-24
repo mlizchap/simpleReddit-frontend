@@ -9,6 +9,7 @@ import './style/reset.css'
 const App = () => {
     return (
         <Provider store={store}>
+            HEADER
             <Switch>
                 <Route path="/all" component={PostList} />
             </Switch>
