@@ -6,10 +6,11 @@
 
 ## To Do
 - [x] set up the CRA project
-- [ ] set up react router
-- [ ] create the `/all` route
-- [ ] create the Post component
+- [x] set up react router
+- [x] create the `/all` route
+- [x] create the Post component
 - [ ] set up Redux
-- [ ] create a `displayPosts` action
+- [ ] set up the post container
+- [ ] create a `displayPosts` action in the container
 - [ ] set up both the production and dev environments
 - [ ] deploy app to aws

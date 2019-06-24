@@ -1,12 +1,12 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom';
 
-import List from './Post/views/List'
+import PostList from './Post/PostList'
 
 const App = () => {
     return (
         <Switch>
-            <Route path="/all" component={List} />
+            <Route path="/all" component={PostList} />
         </Switch>
     )
 }
